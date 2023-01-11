@@ -1,0 +1,1299 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IFR Phraseology Australia - Simple Reference</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+
+<body>
+  <section class="section">
+    <div class="container">
+      <h1 class="title">
+        IFR Phraseology Australia - Simple Reference
+      </h1>
+      <p class="subtitle">
+        for use on VATSIM only
+      </p>
+    </div>
+    <div class="container">
+      <article class="message">
+        <div class="message-body">
+          Examples on this page assume *all* positions are online. This is rarely the case. Simply continue your comms
+          with the lowest controller above you: Delivery, Ground, Tower, Approach, Enroute.
+        </div>
+      </article>
+    </div>
+  </section>
+
+
+  <div class="container">
+    <section>
+      <article class="message">
+        <div class="message-header">
+          <p>YMML to YSSY</p>
+          <button class="delete" aria-label="delete"></button>
+        </div>
+        <div class="message-body">
+          In this example, John is flying an Airbus A320 from Melbourne to Sydney, and expects to be in controlled
+          airspace throughout the flight. Callsign: <span class="is-family-monospace">JST520</span>. Route: <span
+            class="is-family-monospace">DOSEL Y59 RIVET</span>. This is standard airliner fodder.
+        </div>
+      </article>
+
+      <article class="message">
+        <div class="message-body">
+          John fires up his simulator, generates and files a flight plan, and begins virtually loading passengers. When
+          he's about fifteen minutes away from being ready to depart, he contacts clearance delivery on 127.2Mhz. <br />
+          Because John has already checked the ATIS, he knows the in-use runway, and therefore which departure to use
+          (for the waypoint he has planned), and any other information that is pertinent.<br />
+          If delivery was not online, he would contact the first online of; Ground, Tower, Approach, Center.
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/pilot.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>JST520</strong> <small>John Smith</small>
+              <br />
+              Melbourne delivery, Jetstar five twenty, request clearance through to Sydney.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <!-- <div>&nbsp;</div>
+      <article class="message">
+        <div class="message-body">
+          Melbourne delivery assesses John's flight plan, and deciding it requires no amendments issues the clearance.
+        </div>
+      </article> -->
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/controller.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>ML_DEL</strong> <small>Melbourne delivery</small>
+              <br />
+              Jetstar five twenty, melbourne delivery, G'day.<br />
+              Cleared to Sydney via DOSEL flight planned route, DOSEL1 departure, runway 27, climb via SID 5000, squawk
+              5763, departures on 132.0.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <!-- <div>&nbsp;</div>
+      <article class="message">
+        <div class="message-body">
+          John notes down the clearance items, which are always read in the same format. Because he knew what clearance
+          would say, he only really had to listen to the squawk code and to make sure the rest were as expected.
+          <ul>
+            <li>Clearance limit (sydney)</li>
+            <li>Route (DOSEL, flight planned route)</li>
+            <li>Departure (DOSEL1)</li>
+            <li>Runway expectation (runway 27)</li>
+            <li>Initial altitude clearance (climb via SID 5000)</li>
+            <li>Squawk code</li>
+            <li>Departure frequency</li>
+          </ul>
+          Then he reads back all the items in the clearance.
+        </div>
+      </article> -->
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/pilot.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>JST520</strong> <small>John Smith</small>
+              <br />
+              Cleared to Sydney via DOSEL flight planned route, DOSEL1 departure runway 27, climb via the SID to 5000,
+              squawk 5763, departures on 132.0.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <!-- <div>&nbsp;</div>
+      <article class="message">
+        <div class="message-body">
+            As the readback was correct, delivery acknowledges with the callsign only and advises the frequency for ground.
+        </div>
+      </article> -->
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/controller.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>ML_DEL</strong> <small>Melbourne delivery</small>
+              <br />
+              Jetstar five twenty. When ready contact ground on 121.7. G'day.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/pilot.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>JST520</strong> <small>John Smith</small>
+              <br />
+              Ground on 121.7. G'day
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <div>&nbsp;</div>
+      <article class="message">
+        <div class="message-body">
+          Once all John's passengers are loaded and he is ready to go, he contacts checks the ATIS again and then Ground
+          for clearance to start up and push back.
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/pilot.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>JST520</strong> <small>John Smith</small>
+              <br />
+              Melbourne ground, Jetstar five twenty type Airbus A320, stand echo six, in receipt of golf, request
+              pushback.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/controller.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>ML_GND</strong> <small>Melbourne ground</small>
+              <br />
+              Jetstar five twenty, Melbourne ground, g'day. Pushback approved.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/pilot.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>JST520</strong> <small>John Smith</small>
+              <br />
+              Pushback approved, Jetstar 520.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <div>&nbsp;</div>
+      <article class="message">
+        <div class="message-body">
+          Once John is pushed back and facing west, engines ablaze, taxi checklists complete everyone set and ready to
+          go, he gets a pencil ready to copy the taxi clearance and contacts ground again.
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/pilot.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>JST520</strong> <small>John Smith</small>
+              <br />
+              Jetstar five twenty, request taxi.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/controller.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>ML_GND</strong> <small>Melbourne ground</small>
+              <br />
+              Jetstar five twenty, taxi via golf, alpha, echo, to holding point papa, runway two seven.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/pilot.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>JST520</strong> <small>John Smith</small>
+              <br />
+              Taxi via golf, alpha, echo, to holding point papa runway two seven, Jetstar five twenty.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <div>&nbsp;</div>
+      <article class="message">
+        <div class="message-body">
+          John taxies out of the apron on to the manoeuvring area (taxiways) and proceeds west on golf, right on to
+          alpha, right on to echo, and left to hold short of 27 at papa.<br />
+          In Australia, once you reach the holding point (or reasonably close that you are not likely to be needed by
+          ground), you are expected to swap frequencies to tower automatically yourself.<br />
+          John completes all the pre-takeoff checklists and then tunes the tower frequency, 120.5, and contacts tower to
+          call ready - which indicates that the aircraft is completely ready to depart immediately.
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/pilot.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>JST520</strong> <small>John Smith</small>
+              <br />
+              Melbourne tower, Jetstar five twenty, holding point papa runway two seven, ready.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/controller.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>ML_TWR</strong> <small>Melbourne tower</small>
+              <br />
+              Jetstar five twenty, Melbourne tower, g'day. Winds one two zero degrees at two five knots, runway two
+              seven cleared for take off.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/pilot.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>JST520</strong> <small>John Smith</small>
+              <br />
+              Runway two seven, cleared for takeoff, Jetstar five twenty.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <div>&nbsp;</div>
+      <article class="message">
+        <div class="message-body">
+          John moves on to the runway and lines up, applies take off thrust and departs. A few moments after passing the
+          opposite end of the runway...
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/controller.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>ML_TWR</strong> <small>Melbourne tower</small>
+              <br />
+              Jetstar five twenty, contact departures, g'day.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/pilot.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>JST520</strong> <small>John Smith</small>
+              <br />
+              Departures, one three two decimal zero, Jetstar five twenty.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <div>&nbsp;</div>
+      <article class="message">
+        <div class="message-body">
+          John tunes approach on 132.0. While making his departure call, he notes his altitude to the nearest one
+          hundred feet. <strong>Note!</strong> If you are on VATSIM and you're with the same controller (i.e. approach
+          or center) you <strong>MUST</strong> still make your departure call!
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/pilot.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>JST520</strong> <small>John Smith</small>
+              <br />
+              Melbourne departures, Jetstar five twenty, climbing through three thousand six hundred for five thousand.
+              <br />
+              <i><strong>Note:</strong> While on VATSIM you will talk to approach almost always, it will help the
+                controller know you are departing and not just randomly calling from somewhere out of the blue.</i>
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/controller.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>ML_APP</strong> <small>Melbourne approach</small>
+              <br />
+              Jetstar five twenty, Melbourne approach, G'day. Identified. Climb via the SID flight level two four zero.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/pilot.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>JST520</strong> <small>John Smith</small>
+              <br />
+              Climb via the SID, flight level two four zero, Jetstar five twenty.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <div>&nbsp;</div>
+      <article class="message">
+        <div class="message-body">
+          After climbing through the terminal area, John either approaches the vertical boundary (FL240) or the lateral
+          boundary (about 1/2 - 2/3 to DOSEL), approach contacts him.
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/controller.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>ML_APP</strong> <small>Melbourne approach</small>
+              <br />
+              Jetstar five twenty, contact Melbourne center on one two three decimal seven five. G'day.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/pilot.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>JST520</strong> <small>John Smith</small>
+              <br />
+              One two three decimal seven five for Jetstar five twenty. G'day.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <div>&nbsp;</div>
+      <article class="message">
+        <div class="message-body">
+          John tunes 123.75, eyeballs his altimiter to the nearest hundred feet and contacts center.
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/pilot.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>JST520</strong> <small>John Smith</small>
+              <br />
+              Melbourne center, Jetstar five twenty, passing flight level two two three for two four zero.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/controller.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>ML_CTR</strong> <small>Melbourne center</small>
+              <br />
+              Jetstar five twenty, Melbourne center, g'day. Climb flight level three seven zero.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/pilot.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>JST520</strong> <small>John Smith</small>
+              <br />
+              Climb flight level three seven zero, Jetstar five twenty.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <div>&nbsp;</div>
+      <article class="message">
+        <div class="message-body">
+          As the flight progresses, John may get handed off to various controllers and the flow is generally the same.
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/controller.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>UNIT</strong> <small>center</small>
+              <br />
+              Jetstar five twenty, contact <span class="is-family-monospace">UNIT</span>. on <span
+                class="is-family-monospace">FREQUENCY</span>. G'day.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/pilot.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>JST520</strong> <small>John Smith</small>
+              <br />
+              <span class="is-family-monospace">FREQUENCY</span> for Jetstar five twenty, g'day.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/pilot.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>JST520</strong> <small>John Smith</small>
+              <br />
+              <span class="is-family-monospace">UNIT</span> Jetstar five twenty, flight level three seven zero, g'day.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/controller.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>UNIT</strong> <small>center</small>
+              <br />
+              Jetstar five twenty, G'day.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <div>&nbsp;</div>
+      <article class="message">
+        <div class="message-body">
+          Eventually the time comes for descent, arrival and approach. A controller will either offer you a STAR, or
+          tell you to expect one with a hand off. If so, they'll simply add "Expect STAR clearance" with the handoff.
+          There is no need to acknowledge the expectation.
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/controller.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>ML_CTR</strong> <small>Melbourne center</small>
+              <br />
+              Jetstar five twenty, STAR clearance available.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <div>&nbsp;</div>
+      <article class="message">
+        <div class="message-body">
+          John grabs a pencil, and prepares to jot down the details.
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/pilot.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>JST520</strong> <small>John Smith</small>
+              <br />
+              Ready to copy, Jetstar five twenty.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/controller.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>ML_CTR</strong> <small>Melbourne center</small>
+              <br />
+              Jetstar five twenty, cleared the RIVET three arrival, runway one six right. When ready, descend to flight
+              level one three zero.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/pilot.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>JST520</strong> <small>John Smith</small>
+              <br />
+              RIVET three arrival runway one six right, when ready descend flight level one three zero, Jetstar five
+              twenty.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <div>&nbsp;</div>
+      <article class="message">
+        <div class="message-body">
+          <strong>Don't decend immediately!</strong> It's very annoying to controllers when you drop out of the sky and
+          then crawl along at relatively low speed. It ruins their sequencing, makes your flight longer, and is
+          suboptimal for everyone.<br />
+          John consults his calculations and flight management computer to determine the top of descent and waits until
+          shortly before reaching it. Then he enters the cleared level, FL130, and engages the VNAV profile.
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/pilot.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>JST520</strong> <small>John Smith</small>
+              <br />
+              Jetstar five twenty, leaving flight level three seven zero.<br />
+              <i><strong>Note:</strong> This isn't strictly necessary, but it is a politeness so a controller will know
+                you're now on the way down. Omit this on a busy day like milkrun to keep the channel clear.</i>
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/controller.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>ML_CTR</strong> <small>Melbourne center</small>
+              <br />
+              Jetstar five twenty.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <div>&nbsp;</div>
+      <article class="message">
+        <div class="message-body">
+          As John approaches various airspace boundaries, or the assigned altitude, center will issue further
+          clearances. He simply reads back each clearance. The last descent clearance usually includes the local QNH
+          once it is below the transition layer.
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/controller.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>ML_CTR</strong> <small>Melbourne center</small>
+              <br />
+              Jetstar five twenty, descend via the STAR to niner thousand. Sydney QNH one zero one three.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/pilot.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>JST520</strong> <small>John Smith</small>
+              <br />
+              Down to niner thousand, QNH one zero one three. Jetstar five twenty.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <div>&nbsp;</div>
+      <article class="message">
+        <div class="message-body">
+          Eventually the time comes for John to be handed to Sydney approach.
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/controller.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>ML_CTR</strong> <small>Melbourne center</small>
+              <br />
+              Jetstar five twenty, contact Sydney approach on one two four decimal four. G'day.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/pilot.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>JST520</strong> <small>John Smith</small>
+              <br />
+              One two four decimal four, Jetstar five twenty.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <div>&nbsp;</div>
+      <article class="message">
+        <div class="message-body">
+          John double checks that he has the ATIS for Sydney, notes its code, tunes approach and contacts them.
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/pilot.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>JST520</strong> <small>John Smith</small>
+              <br />
+              Sydney approach, Jetstar five twenty, descending through flight level one one zero for niner thousand, we
+              have romeo.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/controller.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>SY_APP</strong> <small>Sydney approach</small>
+              <br />
+              Jetstar five twenty, Sydney approach, g'day. Runway one six right, expect ILS approach.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/pilot.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>JST520</strong> <small>John Smith</small>
+              <br />
+              One six right and expecting the ILS, Jetstar five twenty.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <div>&nbsp;</div>
+      <article class="message">
+        <div class="message-body">
+          Another series of descent instructions will follow as you progress through the control area. Acknowledge
+          these. At Sydney almost all arrivals are radar vectored, so some time you will get an instruction like this:
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/controller.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>SY_APP</strong> <small>Sydney approach</small>
+              <br />
+              Jetstar five twenty, descend four thousand, turn left heading three four zero.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/pilot.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>JST520</strong> <small>John Smith</small>
+              <br />
+              Descend to four thousand, turn left heading three four zero.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <div>&nbsp;</div>
+      <article class="message">
+        <div class="message-body">
+          John is now being radar vectored, and is not under his own navigation. Follow ATC instructions until you are
+          instructed either to resume your STAR (unlikely at Sydney), or cleared for an approach. After a series of
+          headings, you will be finally turned toward the approach.
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/controller.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>SY_APP</strong> <small>Sydney approach</small>
+              <br />
+              Jetstar five twenty, you are four miles west of the localizer, turn right heading one three zero. Maintain
+              four thousand until established. Cleared the ILS runway one six right approach. Report established.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/pilot.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>JST520</strong> <small>John Smith</small>
+              <br />
+              Right one three zero, maintain four thousand until established, cleared ILS runway one six right approach,
+              wilco. Jetstar five twenty.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/pilot.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>JST520</strong> <small>John Smith</small>
+              <br />
+              <i>Once John is established on the localizer in approach mode</i><br />
+              Jetstar five twenty, established one six right.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/controller.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>SY_APP</strong> <small>Sydney approach</small>
+              <br />
+              Jetstar five twenty, contact Sydney tower on one two zero decimal five. G'day.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/pilot.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>JST520</strong> <small>John Smith</small>
+              <br />
+              One two zero decimal five, Jetstar five twenty. G'day.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/pilot.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>JST520</strong> <small>John Smith</small>
+              <br />
+              <i>John tunes 120.5, and notices there are two aircraft ahead of him.</i><br />
+              Sydney tower, Jetstar five twenty, on the ILS runway one six right.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/controller.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>SY_TWR</strong> <small>Sydney tower</small>
+              <br />
+              Jetstar five twenty, Sydney tower, G'day, number three.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/controller.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>SY_TWR</strong> <small>Sydney tower</small>
+              <br />
+              <i>John notices the aircraft is a bit slow off the runway in front of him.</i><br />
+              Jetstar five twenty, Sydney tower, expect late landing clearance.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/pilot.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>JST520</strong> <small>John Smith</small>
+              <br />
+              Expect late clearance, Jetstar five twenty.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/controller.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>SY_TWR</strong> <small>Sydney tower</small>
+              <br />
+              <i>The laggard pilot gets his aircraft out of the way as John reaches the two mile mark.</i><br />
+              Jetstar five twenty, runway one six right, cleared to land.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/pilot.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>JST520</strong> <small>John Smith</small>
+              <br />
+              Cleared to land one six right, Jetstar five twenty.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <div>&nbsp;</div>
+      <article class="message">
+        <div class="message-body">
+          John lands, and exits the runway via the high speed taxiway B7. Once he passes the holding point, he contacts tower again.
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/pilot.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>JST520</strong> <small>John Smith</small>
+              <br />
+              Vacated one six right, bravo seven on to bravo, Jetstar five twenty.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/controller.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>SY_TWR</strong> <small>Sydney tower</small>
+              <br />
+              Jetstar five twenty, welcome to Sydney, contact ground on one two six decimal five. G'day.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/pilot.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>JST520</strong> <small>John Smith</small>
+              <br />
+              <i>Slowing to a very slow taxi speed, John slowly moves northbound on Bravo</i><br />
+              Ground on one two six decimal five, Jetstar five twenty, g'day.
+            </p>
+          </div>
+        </div>
+      </article>
+      
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/pilot.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>JST520</strong> <small>John Smith</small>
+              <br />
+              <i>John grabs a pencil in case of anything nonstandard and tunes 126.5</i><br />
+              Sydney ground, Jetstar five twenty on bravo northbound for domestic two.
+            </p>
+          </div>
+        </div>
+      </article>
+      
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/controller.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>SY_GND</strong> <small>Sydney ground</small>
+              <br />
+              Jetstar five twenty, Sydney ground, g'day. Taxi via bravo, cross runway two five, golf, to the apron.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="img/pilot.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>JST520</strong> <small>John Smith</small>
+              <br />
+              Via bravo, cross two five, golf to the apron, Jetstar five twenty.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <div>&nbsp;</div>
+      <article class="message">
+        <div class="message-body">
+          John parks at bay 56, and powers down. Once he enters the apron he's no longer ground's problem. Cracks a beer and opens up simbrief to plan his next flight.
+        </div>
+      </article>
+
+    </section>
+  </div>
+
+  <div class="pt-5">
+
+  </div>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <div>
+        Controller photo by Kampus Production:
+        https://www.pexels.com/photo/a-man-and-a-woman-working-in-a-call-center-8204313/
+      </div>
+      <div>
+        Pilot photo by behrouz sasani: https://www.pexels.com/photo/pilot-sitting-on-a-cockpit-7375957/
+      </div>
+      <div>Copyright (c) 2023 Adrian Griffin. All Rights Reserved.</div>
+    </div>
+  </footer>
+</body>
+
+</html>
